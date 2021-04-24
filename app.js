@@ -11,6 +11,7 @@ const mercadopago = require("mercadopago");
 mercadopago.configure({
   access_token:
     "APP_USR-2572771298846850-120119-a50dbddca35ac9b7e15118d47b111b5a-681067803",
+  integrator_id: "dev_24c65fb163bf11ea96500242ac130004",
 });
 
 app.engine("handlebars", exphbs());
