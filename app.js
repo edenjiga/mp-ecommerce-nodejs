@@ -110,8 +110,8 @@ app.post("/create_preference", function (req, res) {
     });
 });
 
-app.post("webhooks", (req, res) => {
-  console.log(req.body);
+app.post("/webhooks", (req, res) => {
+  console.log(req.body, "webhooks");
   res.status(200).send();
 });
 
